@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #272727;
+}
+.button {
+  color: rgb(23, 199, 205);
+  border: 2px solid rgb(23, 199, 205);
+  cursor: pointer;
+  padding: 20px 25px;
+  position: relative;
+}
+.button::after {
+  content: "";
+  background-image: url("../assets/t.webp");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -20px;
+  left: 0;
+}
