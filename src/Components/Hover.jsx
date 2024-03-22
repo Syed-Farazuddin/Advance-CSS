@@ -1,15 +1,16 @@
 import React from "react";
-
+import "./hover.css";
 function Hover() {
   return (
-    <div>
+    <div className="navContainer">
       <nav>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Services</li>
-          <li>Contact</li>
-        </ul>
+        <div className="navbar">
+          <p className="navItems">Home</p>
+          <p className="navItems">About</p>
+          <p className="navItems">Services</p>
+          <p className="navItems">Contact</p>
+          <button className="buttonStyling">Register</button>
+        </div>
       </nav>
     </div>
   );
